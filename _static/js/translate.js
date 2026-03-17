@@ -28,6 +28,8 @@ function setLang(lang) {
     set_thai_btn.disabled = true
     set_eng_btn.disabled = false
   }
+
+  localStorage.setItem("lang", lang);
 }
 
 set_eng_btn.addEventListener("click", () => {
