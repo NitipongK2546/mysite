@@ -7,91 +7,116 @@
     <link rel="stylesheet" href="/_static/css/base.css">
 </head>
 <body>
-    <h1 class="resume-header">Resume</h1>
-    <nav class="resume-nav-bar" id="nav-bar">
-        <a href="/about/">About</a>
-        <a href="https://github.com/NitipongK2546/mysite/">GitHub Code</a>
-    </nav>
+    <div class="grid-container">
+        <header>
+            <h1 class="resume-header">Resume</h1>
 
-    <div class="resume-translation">
-        <button id="set-thai">TH</button>
-        <button id="set-eng" disabled>EN</button>
+            <div class="resume-translation">
+                <button id="set-thai">TH</button>
+                <button id="set-eng" disabled>EN</button>
+            </div>
+        </header>
+        
+        <aside>
+            <nav class="resume-nav-bar" id="nav-bar">
+                <p>Table of Content</p>
+                <ul>
+                    <li><a href="#resume-intro">Introduction</a></li>
+                    <li><a href="#resume-skills">Skills</a></li>
+                    <li><a href="#resume-degrees">Degrees</a></li>
+                    <li><a href="#resume-work">Work</a></li>
+                    <li><a href="#resume-contact">Contact</a></li>
+                    <li><a href="#resume-project">Project</a></li>
+                </ul>
+            </nav>
+        </aside>
+        
+        <main>
+            <section class="resume-intro">
+                <h2 id="resume-intro">Introduction</h2>
+                <div>
+                    <p data-i18n="intro_1">Hello! My name is Nitipong Kadsritalee!</p>
+                    <p data-i18n="intro_2">I'm more proficient at doing Website Backend, but I can manage some Frontend as well!</p>
+                </div>
+            </section>
+
+            <section class="resume-skills">
+                <h2 id="resume-skills">Skills</h2>
+                <div>
+                    <h3>Programming</h3>
+                    <ul>
+                        <li>
+                            <span>Frontend</span>
+                            <ul>
+                                <li>HTML, CSS, Javascript</li>
+                                <li>Django (Full-Stack)</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <span>Backend</span>
+                            <ul>
+                                <li>FastAPI</li>
+                                <li>Django (Full-Stack)</li>
+                                <li>MySQL / MariaDB</li>
+                            </ul>
+                        </li>
+                        
+                        <li>Connecting and Designing API</li>
+                        <li>Python, Java</li>
+
+                        <li>n8n Workflow</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Computers</h3>
+                    <ul>
+                        <li>Making a Chatbot via Self-host LLM and Workflow Design (Graduation Project)</li>
+                        <li>Using Docker and Linux</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Others</h3>
+                    <ul>
+                        <li>Microsoft Office (Word, Excel, PowerPoint)</li>
+                        <li>Canva and Figma</li>
+                        <li>Thai and English Languages</li>
+                        <li>Connecting and Designing API</li>
+                    </ul>
+                </div>
+            </section>
+
+            <section class="resume-degrees">
+                <h2 id="resume-degrees">Degrees</h2>
+                <ul>
+                    <li>Bachelor of Engineering in Computer Engineering (Thammasat University)</li>
+                </ul>
+            </section>
+
+            <section class="resume-work">
+                <h2 id="resume-work">Work Experience</h2>
+                <ul>
+                    <li>Internship with the Technology Digital Division at Trade Competition Commission of Thailand (TCCT)</li>
+                </ul>
+            </section>
+
+            <section class="resume-contact">
+                <h2 id="resume-contact">Contact</h2>
+                <ul>
+                    <li>Phone Number: XXX-XXX-XXXX</li>
+                    <li>Personal Email: ntipongkadsritalee01@gmail.com</li>
+                </ul>
+            </section>
+
+            <section class="resume-project">
+                <h2 id="resume-project">Sample Project</h2>
+                <ul>
+                    <li>
+                        <a href="https://github.com/NitipongK2546/mysite/">GitHub Code</a>
+                    </li>
+                </ul>
+            </section>
+        </main>
     </div>
-
-    <section class="resume-intro">
-        <h2 id="resume-intro">Introduction</h2>
-        <div>
-            <p data-i18n="intro_1">Hello! My name is Nitipong Kadsritalee!</p>
-            <p data-i18n="intro_2">I'm more proficient at doing Website Backend, but I can manage some Frontend as well!</p>
-        </div>
-    </section>
-
-    <section class="resume-skills">
-        <h2 id="resume-skills">Skills</h2>
-        <div>
-            <h3>Programming</h3>
-            <ul>
-                <li>
-                    <span>Frontend</span>
-                    <ul>
-                        <li>HTML, CSS, Javascript</li>
-                        <li>Django (Full-Stack)</li>
-                    </ul>
-                </li>
-                <li>
-                    <span>Backend</span>
-                    <ul>
-                        <li>FastAPI</li>
-                        <li>Django (Full-Stack)</li>
-                        <li>MySQL / MariaDB</li>
-                    </ul>
-                </li>
-                
-                <li>Connecting and Designing API</li>
-                <li>Python, Java</li>
-
-                <li>n8n Workflow</li>
-            </ul>
-        </div>
-        <div>
-            <h3>Computers</h3>
-            <ul>
-                <li>Making a Chatbot via Self-host LLM and Workflow Design (Graduation Project)</li>
-                <li>Using Docker and Linux</li>
-            </ul>
-        </div>
-        <div>
-            <h3>Others</h3>
-            <ul>
-                <li>Microsoft Office (Word, Excel, PowerPoint)</li>
-                <li>Thai and English Languages</li>
-                <li>Connecting and Designing API</li>
-            </ul>
-        </div>
-    </section>
-
-    <section class="resume-degrees">
-        <h2 id="resume-degrees">Degrees</h2>
-        <ul>
-            <li>Bachelor of Engineering in Computer Engineering (Thammasat University)</li>
-        </ul>
-    </section>
-
-    <section class="resume-work">
-        <h2 id="resume-work">Work Experience</h2>
-        <ul>
-            <li>Internship with the Technology Digital Division at Trade Competition Commission of Thailand (TCCT)</li>
-        </ul>
-    </section>
-
-    <section class="resume-contact">
-        <h2 id="resume-contact">Contact</h2>
-        <ul>
-            <li>Phone Number: XXX-XXX-XXXX</li>
-            <li>Personal Email: ntipongkadsritalee01@gmail.com</li>
-        </ul>
-    </section>
-
     <!-- ------------------------------------------------------ -->
     <script>
         const nav_bar = document.getElementById("nav-bar");
